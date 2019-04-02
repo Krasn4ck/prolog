@@ -1,7 +1,6 @@
 :- dynamic(vuelo/3).
 /*
 Ejercicio de PROLOG 
-Alumno: Hernández Miranda Carlos Daniel
 */
 
 vuelo(nueva_york, chicago,1000).
