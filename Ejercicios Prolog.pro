@@ -2,7 +2,6 @@
 	***************************************
 	PROGRAMACIÓN LOGICA Y FUNCIONAL
 	EJERCICIOS EN PROLOG 
-	Alumno: Hernández Miranda Carlos Daniel
 	Fecha:20/10/2018
 	V 0.02  Preview
     ************************************** 
