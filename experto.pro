@@ -1,11 +1,24 @@
-/*	Sistema Experto: experto.pro
+/*	
+	---------------------------------------------------------------------------------
+	Sistema Experto: experto.pro
 	Trata los sintomas como una lista. la cabeza es el diagnostico y la "Cola" son
 	los sintomas.
 	Utiliza assert/1 para cambiar dinamicamente la base de conocimientos .
 	Determina la verdad y la falsedad de los sintomas conocidos.
 	Puede contestar a las preguntas 'porque' e incluye capacidad de explicacion.
 	Elimina dinamicamente las aseveraciones agregadas despues de cada consulta.
+	---------------------------------------------------------------------------------
+
+	Integrantes de Equipo:
+		-> Mier Huerta Fernando
+		-> Mayo Vargas Andres
+		-> Hernández Jimenez Dilan Enrique
+		-> Enrique Dorantes Jimenez
+		-> Hernández Miranda Carlos Daniel
+	
+	----------------------------------------------------------------------------------
 */
+
 
 :-dynamic conocido/1.
 consulta:-
@@ -32,7 +45,7 @@ prueba_verdad_de(Diagnosis, Sintoma):-conocido(Sintoma).
 prueba_verdad_de(Diagnosis, Sintoma):- not(conocido(is_false(Sintoma))),
 	pregunta_sobre(Diagnosis, Sintoma, Reply), Reply=si.
 
-pregunta_sobre(Diagnosis, Sintoma, Reply):- write('Es verdad que'),
+pregunta_sobre(Diagnosis, Sintoma, Reply):- write('Es verdad que '),
 	write(Sintoma), write('?'),
 	read(Respuesta), process(Diagnosis, Sintoma, Respuesta, Reply).
 
@@ -74,9 +87,8 @@ escribe_lista_de_sintomas([]).
 escribe_lista_de_sintomas([Head | Tail]):-
 	write(Head), nl, escribe_lista_de_sintomas(Tail).
 
+clean_scratchpad:-retract(conocido(X)),fail.
 clean_scratchpad.
 conocido(_):- fail.
-not(X):- X, fail.
+not(X):- X,!,fail.
 not(_).
-
-

@@ -1,5 +1,18 @@
-/*	BaseConocimiento1: diagnostico y sintomas
+/*	
+	---------------------------------------------------------------------------------
+	BaseConocimiento1: diagnostico y sintomas
 	Dominio: diagnostico medico. Trata los sintomas como una lista de multi - elementos
+	---------------------------------------------------------------------------------
+
+	Integrantes de Equipo:
+		-> Mier Huerta Fernando
+		-> Mayo Vargas Andres
+		-> Hernández Jimenez Dilan Enrique
+		-> Enrique Dorantes Jimenez
+		-> Hernández Miranda Carlos Daniel
+	
+	----------------------------------------------------------------------------------
+
 */
 conocimento('sarampion',
 	['el paciente esta cubierto de puntos', 'el paciente tiene temperatura alta',
