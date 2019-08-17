@@ -9,12 +9,7 @@
 	Elimina dinamicamente las aseveraciones agregadas despues de cada consulta.
 	---------------------------------------------------------------------------------
 
-	Integrantes de Equipo:
-		-> Mier Huerta Fernando
-		-> Mayo Vargas Andres
-		-> Hernández Jimenez Dilan Enrique
-		-> Enrique Dorantes Jimenez
-		-> Hernández Miranda Carlos Daniel
+
 	
 	----------------------------------------------------------------------------------
 */
