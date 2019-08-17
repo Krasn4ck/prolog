@@ -4,12 +4,6 @@
 	Dominio: diagnostico medico. Trata los sintomas como una lista de multi - elementos
 	---------------------------------------------------------------------------------
 
-	Integrantes de Equipo:
-		-> Mier Huerta Fernando
-		-> Mayo Vargas Andres
-		-> Hernández Jimenez Dilan Enrique
-		-> Enrique Dorantes Jimenez
-		-> Hernández Miranda Carlos Daniel
 	
 	----------------------------------------------------------------------------------
 
